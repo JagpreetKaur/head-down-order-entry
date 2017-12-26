@@ -1,0 +1,25 @@
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <title>Login</title>
+</head>
+<link rel="stylesheet" href="/scripts/angular-material/angular-material.min.css"/>
+<body>
+<h1>Login</h1>
+<div ng-app="app" ng-controller="NavController">
+    <div flex layout-fill layout="row">
+        <md-content flex id="content" layout="column">
+            <div layout="column">
+                <div ui-view layout="column"></div>
+            </div>
+        </md-content>
+    </div>
+</div>
+</body>
+<script type="text/javascript" src="/scripts/angular/angular.min.js"></script>
+<script type="text/javascript" src="/scripts/angular-animate/angular-animate.js"></script>
+<script type="text/javascript" src="/scripts/angular-material/angular-material.js"></script>
+<script type="text/javascript" src="/scripts/@uirouter/angularjs/release/angular-ui-router.js"></script>
+<script type="text/javascript" src="/public/app.js"></script>
+<script type="text/javascript" src="/public/component/login/controller/login.controller.js"></script>
+</html>
